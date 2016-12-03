@@ -1,0 +1,3 @@
+rootProject.name = 'SimpleSideMenu'
+
+include ':app'
