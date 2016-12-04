@@ -4,11 +4,12 @@ import {
   StyleSheet,
   Text,
   View,
-  StatusBar
+  StatusBar,
+  TouchableHighlight
 } from 'react-native'
 import Drawer from 'react-native-drawer'
-import MainComponent from './MainComponent'
-import ControlPanel from './ControlPanel'
+import MainComponent from './components/Main/Main'
+import ControlPanel from './components/ControlPanel/ControlPanel'
 
 export default class SimpleSideMenu extends Component {
   render() {
