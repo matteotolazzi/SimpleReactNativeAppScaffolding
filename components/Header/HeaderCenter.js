@@ -4,7 +4,7 @@ import {View, Text} from 'react-native'
 const HeaderCenter = (props) => {
   return (
     <View style={props.style}>
-      <Text>Logo</Text>
+      <Text>my very basic app</Text>
     </View>
   )
 }

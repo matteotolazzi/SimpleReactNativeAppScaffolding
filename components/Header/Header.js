@@ -24,18 +24,23 @@ export default Header
 
 const styles = StyleSheet.create({
   main: {
-    flexDirection: 'row'
+    flexDirection: 'row',
+    borderLeftWidth: 1,
+    borderLeftColor: 'gray'
   },
   headerLeft: {
-    flex: 1/3,
-    backgroundColor: 'green'
+    flex: 1/5,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   headerCenter: {
-    flex: 1/3,
-    backgroundColor: 'yellow'
+    flex: 3/5,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
   headerRight: {
-    flex: 1/3,
-    backgroundColor: 'brown'
+    flex: 1/5,
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 })

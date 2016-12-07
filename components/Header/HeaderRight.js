@@ -1,12 +1,17 @@
 import React from 'react'
-import {View,Text} from 'react-native'
+import {View,Text,StyleSheet} from 'react-native'
+import Icon from 'react-native-vector-icons/FontAwesome'
 
 const HeaderRight = (props) => {
   return (
     <View style={props.style}>
-      <Text>HeaderRight</Text>
+      <Icon style={styles.info} name='info-circle' size={35}/>
     </View>
   )
 }
 
 export default HeaderRight
+
+const styles = StyleSheet.create({
+  info: {}
+})

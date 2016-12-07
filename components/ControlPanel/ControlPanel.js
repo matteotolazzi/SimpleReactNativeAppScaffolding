@@ -10,7 +10,7 @@ class ControlPanel extends Component {
 		return (
 			<View style={styles.main}>
 				<Text>
-					Control Panel
+					Side Menu
 				</Text>
 			</View>
 		)

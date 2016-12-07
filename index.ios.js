@@ -32,7 +32,5 @@ export default class SimpleSideMenu extends Component {
 AppRegistry.registerComponent('SimpleSideMenu', () => SimpleSideMenu)
 
 const drawerStyle = {
-  main: {
-    backgroundColor: 'red'
-  }
+  main: {}
 }

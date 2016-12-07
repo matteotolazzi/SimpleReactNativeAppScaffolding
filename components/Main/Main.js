@@ -12,7 +12,7 @@ class Main extends Component {
     return (
       <View style={styles.main}>
         <Header openSideMenu={this.props.openSideMenu} style={styles.header}/>
-        <Body style={styles.submenu}/>
+        <Body style={styles.body}/>
       </View>
     )
   }
@@ -27,11 +27,15 @@ const styles = StyleSheet.create({
     flexDirection: 'column'
   },
   header: {
-    flex: 1/10,
-    backgroundColor: 'yellow'
+    flex: 1/10
   },
-  submenu: {
+  body: {
     flex: 9/10,
-    backgroundColor: 'blue'
+    borderWidth: 1,
+    borderColor: 'gray',
+    // the next is needed to cover side panel content
+    backgroundColor: 'white',
+    alignItems: 'center',
+    justifyContent: 'center'
   }
 })
