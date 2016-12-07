@@ -9,3 +9,9 @@ The App appears as follows:
 Clicking on the green header component will open the side menu:
 
 ![sidebar open](screenshots/sidebaropen.png)
+
+
+## Libraries used
+
+- react-native-drawer: sidebar
+- react-native-vector-icons: icons management
