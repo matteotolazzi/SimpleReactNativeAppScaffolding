@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {View, Text, StyleSheet} from 'react-native'
 
-class ControlPanel extends Component {
+class Menu extends Component {
 	constructor(props, context) {
 		super(props, context)
 	}
@@ -17,7 +17,7 @@ class ControlPanel extends Component {
 	}
 }
 
-export default ControlPanel
+export default Menu
 
 const styles = StyleSheet.create({
 	main: {

@@ -1,14 +1,14 @@
 import React, {Component} from 'react'
-import {View, Text, StyleSheet} from 'react-native'
+import {TouchableHighlight, View, Text} from 'react-native'
 
-class Body extends Component {
+class Home extends Component {
   constructor(props, context) {
     super(props, context)
   }
 
   render() {
     return (
-      <View style={this.props.style}>
+      <View style={this.props.style.body}>
         <Text>
           Body
         </Text>
@@ -17,4 +17,4 @@ class Body extends Component {
   }
 }
 
-export default Body
+export default Home
